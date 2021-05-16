@@ -85,6 +85,8 @@ WSGI_APPLICATION = 'WhaleWatchr_proj.wsgi.application'
 
 DATABASES = {
     'default': {
+        'HOST': 'db.cse.nd.edu',
+        'PORT': 3006,
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'jagron',
         'USER': 'jagron',
