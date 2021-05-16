@@ -85,12 +85,12 @@ WSGI_APPLICATION = 'WhaleWatchr_proj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'HOST': 'db.cse.nd.edu',
+        'HOST': 'ik1eybdutgxsm0lo.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'PORT': 3006,
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'jagron',
-        'USER': 'jagron',
-        'PASSWORD': 'Shasta2000',
+        'USER': 'c0r60xc0903l7qq9',
+        'PASSWORD': 'fdz8ptw5vo6cw50w',
     }
 }
 
